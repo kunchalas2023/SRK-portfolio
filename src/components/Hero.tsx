@@ -93,12 +93,13 @@ const Hero = () => {
             </h1>
             
             <p className="text-base md:text-lg lg:text-xl mb-8 max-w-3xl leading-relaxed text-gray-100 backdrop-blur-sm bg-white/5 p-4 md:p-6 rounded-2xl border border-white/10 mx-auto lg:mx-0">
-              I’m a Python Developer and Data Engineer with <span className="text-blue-400 font-semibold">2+ years</span> of experience in the industry, excelling in designing, deploying, and managing cloud infrastructure and data systems. Proficient in AWS, Google Cloud, and data engineering principles, I specialize in building scalable and automated data pipelines, ensuring data security, and optimizing cloud resources for performance. 
-              With a strong focus on cloud infrastructure, automation, and big data processing, I’m dedicated to leveraging my expertise to help organizations efficiently manage and analyze vast datasets, driving data-driven decision-making.
-            </p>
+              I’m a Python Developer and AWS Cloud Engineer with <span className="text-blue-400 font-semibold">2+ years</span> of experience, currently looking to transition into a Data Engineer role. 
+              I specialize in building scalable data pipelines, automating workflows, and managing cloud infrastructure. 
+              My goal is to leverage my expertise in cloud platforms and data engineering to help organizations manage and analyze large datasets effectively.
+
             
             <div className="flex flex-wrap gap-2 md:gap-4 mb-8 justify-center lg:justify-start">
-              {['AWS Cloud', 'Google Cloud', 'Terraform', 'Cloud Security', 'Automation', 'Scalability'].map((skill, index) => (
+              {['AWS Cloud', 'Google Cloud', 'Terraform', 'Cloud Security', 'Automation', 'Scalability', 'SQL', 'Jira', 'Snowflake'].map((skill, index) => (
                 <span 
                   key={skill}
                   className="px-3 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full text-xs md:text-sm font-medium border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105 shadow-lg"
