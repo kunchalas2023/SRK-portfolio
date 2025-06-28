@@ -99,7 +99,7 @@ const Hero = () => {
 
             
             <div className="flex flex-wrap gap-2 md:gap-4 mb-8 justify-center lg:justify-start">
-              {['AWS Cloud', 'Google Cloud', 'Terraform', 'Cloud Security', 'Automation', 'Scalability', 'SQL', 'Jira', 'Snowflake'].map((skill, index) => (
+              {['AWS Cloud', 'Google Cloud', 'Terraform', 'Cloud Security', 'Automation', 'Scalability'].map((skill, index) => (
                 <span 
                   key={skill}
                   className="px-3 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full text-xs md:text-sm font-medium border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105 shadow-lg"
