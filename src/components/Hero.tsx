@@ -7,7 +7,7 @@ const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   
-  const titles = ['Python Developer', 'AWS Cloud Engineer'];
+  const titles = ['Python Developer', 'Data Engineer'];
   
   useEffect(() => {
     const currentTitle = titles[currentIndex];
