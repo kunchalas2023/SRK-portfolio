@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { ArrowDown } from 'lucide-react';
 
@@ -58,19 +59,19 @@ const Hero = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10 text-white">
         <div className="animate-fade-in flex flex-col lg:flex-row items-center justify-center lg:justify-between max-w-6xl mx-auto">
         
-      {/* Profile Photo - Circle shape */}
-<div className="flex-shrink-0 mb-8 lg:mb-0 lg:order-2 lg:ml-12">
-  <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 xl:w-64 xl:h-64 relative mx-auto">
-    <div className="group relative">
-      <img 
-        src="/SRK-portfolio/lovable-uploads/2d2fc46b-8f61-4672-a8dc-6d704624d687.png" 
-        alt="Siva Rama Krishna Reddy"
-        className="w-full h-full object-cover shadow-2xl transition duration-300 transform group-hover:scale-105 rounded-full"
-      />
-      <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-opacity duration-300 rounded-full"></div>
-    </div>
-  </div>
-</div>
+          {/* Profile Photo - Circle shape */}
+          <div className="flex-shrink-0 mb-8 lg:mb-0 lg:order-2 lg:ml-12">
+            <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 xl:w-64 xl:h-64 relative mx-auto">
+              <div className="group relative">
+                <img 
+                  src="/SRK-portfolio/lovable-uploads/2d2fc46b-8f61-4672-a8dc-6d704624d687.png" 
+                  alt="Siva Rama Krishna Reddy"
+                  className="w-full h-full object-cover rounded-full shadow-2xl transition duration-300 transform group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-opacity duration-300 rounded-full"></div>
+              </div>
+            </div>
+          </div>
         
           {/* Left side content */}
           <div className="flex-1 text-center lg:text-left lg:order-1">
@@ -93,10 +94,10 @@ const Hero = () => {
             </h1>
             
             <p className="text-base md:text-lg lg:text-xl mb-8 max-w-3xl leading-relaxed text-gray-100 backdrop-blur-sm bg-white/5 p-4 md:p-6 rounded-2xl border border-white/10 mx-auto lg:mx-0">
-              I’m a Python Developer and AWS Cloud Engineer with <span className="text-blue-400 font-semibold">2+ years</span> of experience, currently looking to transition into a Data Engineer role. 
+              I'm a Python Developer and AWS Cloud Engineer with <span className="text-blue-400 font-semibold">2+ years</span> of experience, currently looking to transition into a Data Engineer role. 
               I specialize in building scalable data pipelines, automating workflows, and managing cloud infrastructure. 
               My goal is to leverage my expertise in cloud platforms and data engineering to help organizations manage and analyze large datasets effectively.
-
+            </p>
             
             <div className="flex flex-wrap gap-2 md:gap-4 mb-8 justify-center lg:justify-start">
               {['AWS Cloud', 'Google Cloud', 'Terraform', 'Cloud Security', 'Automation', 'Scalability'].map((skill, index) => (
