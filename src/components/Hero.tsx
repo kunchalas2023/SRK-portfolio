@@ -7,7 +7,7 @@ const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   
-  const titles = ['Python Developer', 'Data Engineer'];
+  const titles = ['AI Intern', 'Python Developer', 'DevOps Engineer'];
   
   useEffect(() => {
     const currentTitle = titles[currentIndex];
@@ -94,7 +94,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-base md:text-lg lg:text-xl mb-8 max-w-3xl leading-relaxed text-gray-100 backdrop-blur-sm bg-white/5 p-4 md:p-6 rounded-2xl border border-white/10 mx-auto lg:mx-0">
-              I'm a Python Developer and AWS Cloud Engineer with <span className="text-blue-400 font-semibold">2+ years</span> of experience, currently looking to transition into a Data Engineer role. 
+              I'm a AI Engineer, Python Developer and AWS Cloud Engineer with <span className="text-blue-400 font-semibold">2+ years</span> of experience, currently looking to transition into a Data Engineer role. 
               I specialize in building scalable data pipelines, automating workflows, and managing cloud infrastructure. 
               My goal is to leverage my expertise in cloud platforms and data engineering to help organizations manage and analyze large datasets effectively.
             </p>
