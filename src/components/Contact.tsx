@@ -21,7 +21,7 @@ const Contact = () => {
             <h3 className="text-xl md:text-2xl font-bold mb-4">Email Me</h3>
             <p className="text-gray-300 mb-6 text-sm md:text-base">Shoot me an email, I'll get back to you asap.</p>
             <div className="bg-white text-gray-900 px-3 py-2 md:px-4 md:py-3 rounded-lg font-medium text-sm md:text-base break-all">
-              srkreddykunchala@gmail.com
+              srkreddykunchala18@gmail.com
             </div>
           </div>
 
@@ -30,12 +30,12 @@ const Contact = () => {
             <h3 className="text-xl md:text-2xl font-bold mb-4">Connect on LinkedIn</h3>
             <p className="text-gray-300 mb-6 text-sm md:text-base">Let's connect and share valuable insights.</p>
             <a 
-              href="https://linkedin.com/in/srkreddykunchala" 
+              href="https://linkedin.com/in/siva-rama-krishna-reddy-kunchala-9a35371b7" 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-white text-gray-900 px-3 py-2 md:px-4 md:py-3 rounded-lg font-medium inline-block hover:bg-gray-100 transition-colors text-sm md:text-base break-all"
             >
-              linkedin.com/in/srkreddykunchala
+              linkedin.com/in/siva-rama-krishna-reddy-kunchala-9a35371b7
             </a>
           </div>
 
@@ -45,7 +45,7 @@ const Contact = () => {
             <p className="text-gray-300 mb-6 text-sm md:text-base">Catch all the latest updates with me.</p>
             <div className="flex justify-center space-x-3 md:space-x-4">
               <a 
-                href="https://linkedin.com/in/srkreddykunchala" 
+                href="https://linkedin.com/in/siva-rama-krishna-reddy-kunchala-9a35371b7" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-white hover:text-blue-400 transition-colors"
