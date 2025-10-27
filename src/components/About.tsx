@@ -22,19 +22,18 @@ const About = () => {
 
   const experience = [
     {
-      year: "Jan 2024 - Apr 2025",
-      title: "Graduate Teaching Assistant",
-      institution: "Florida Atlantic University",
-      type: "Part-time · On-site",
-      duration: "1 yr 4 mos",
-      description: "As a Graduate Teaching Assistant in Cloud Security, I assist in teaching and evaluating advanced cloud security concepts, secure architecture design, and risk management strategies. I mentor students in hands-on labs, threat mitigation, and compliance frameworks (e.g., NIST, ISO), and am responsible for grading assignments, exams, and projects related to cloud security topics.",
+      year: "June 2025 - Present",
+      title: "AI Intern",
+      Company: "Cogent Integrated Bussiness Solutions Inc.",
+      type: "Internship · On-site",
+      description: "Developed FoodyBuddy AI chatbot using Ollama for local LLM inference, Node.js backend with RESTful APIs, and React 19 frontend, enabling intelligent food recommendations with enhanced privacy and real-time conversational capabilities.",
       responsibilities: [
-        "Assist in teaching cloud security principles, focusing on secure cloud architecture, virtualization risks, and compliance frameworks (NIST, ISO).",
-        "Guide students on distributed systems, IaaS/PaaS/SaaS models, and cloud performance optimization, with emphasis on AWS, Azure, and Owl Cloud platforms.",
-        "Support instruction on cybersecurity metrics, threat modeling, and tools like SIEM and Wireshark to enhance incident response and security posture evaluations.",
-        "Grade assignments, exams, and projects on cloud security topics, ensuring alignment with course objectives and providing detailed feedback to students.",
-        "Mentor students on cloud security best practices, including data encryption, access control, and network defense mechanisms through real-world case studies.",
-        "Collaborate with faculty to refine and update course materials, incorporating emerging trends in cyber-physical systems security and DevSecOps."
+        "Developed FoodyBuddy AI chatbot using Ollama (local LLM), Node.js backend, and React 19 frontend, enabling intelligent food recommendations with enhanced data privacy.",
+        "Built RESTful APIs with Node.js/Express.js to integrate Ollama AI models for natural language processing.",
+        "Created responsive, modern UI using React 19 with efficient state management and real-time chat capabilities.",
+        "Optimized local AI model deployment with Ollama, reducing API costs and improving response latency.",
+        "Implemented full-stack solution with prompt engineering, context management, and error handling.",
+        "Technologies: Node.js, React 19, Ollama, JavaScript, REST APIs, LLM integration."
       ]
     },
     {
@@ -119,10 +118,10 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Me</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-6">
-            I'm a dedicated cloud computing professional with a passion for building innovative solutions in the cloud. I hold a Master's degree in Computer Science from Florida Atlantic University, where I focused on Cloud Security, AI, and IoT. With more than 4 years of hands-on experience, I've developed expertise in AWS, Google Cloud, Terraform, and Python. I've worked on impactful projects such as designing cloud backup systems and creating AI-driven audio analysis tools. My career has been driven by a desire to optimize infrastructure and deliver scalable, secure cloud solutions.
+            I'm a dedicated cloud computing professional with a passion for building innovative solutions in the cloud. I hold a Master's degree in Computer Science from Florida Atlantic University, where I focused on Cloud Security, AI, and IoT. With more than 3 years of hands-on experience, I've developed expertise in AWS, Google Cloud, Terraform, and Python. I've worked on impactful projects such as designing cloud backup systems and creating AI-driven audio analysis tools. My career has been driven by a desire to optimize infrastructure and deliver scalable, secure cloud solutions.
           </p>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-6">
-            I am now transitioning into a DevOps Engineer role, looking to apply my cloud and data engineering skills to build scalable data pipelines, automate data workflows, and leverage big data technologies. I'm excited to contribute to a team that values innovation, scalability, and data-driven decision-making, while continuing to grow in a dynamic, forward-thinking environment.
+            I am now transitioning into a DevOps Engineer role, looking to apply my cloud skills to build scalable data pipelines, automate data workflows, and leverage big data technologies. I'm excited to contribute to a team that values innovation, scalability, and data-driven decision-making, while continuing to grow in a dynamic, forward-thinking environment.
           </p>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             I am currently looking for new opportunities where I can apply my cloud computing and DevOps engineer skills and continue to grow in a dynamic, forward-thinking environment. I'm excited to contribute to a team that values innovation, scalability, and problem-solving.
