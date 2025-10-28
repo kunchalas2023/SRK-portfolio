@@ -7,7 +7,7 @@ const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   
-  const titles = ['AI Intern', 'Python Developer', 'DevOps Engineer'];
+  const titles = ['AI Engineer', 'DevOps Engineer'];
   
   useEffect(() => {
     const currentTitle = titles[currentIndex];
@@ -94,13 +94,13 @@ const Hero = () => {
             </h1>
             
             <p className="text-base md:text-lg lg:text-xl mb-8 max-w-3xl leading-relaxed text-gray-100 backdrop-blur-sm bg-white/5 p-4 md:p-6 rounded-2xl border border-white/10 mx-auto lg:mx-0">
-              I'm a AI Engineer, Python Developer and AWS Cloud Engineer with <span className="text-blue-400 font-semibold">2+ years</span> of experience, currently looking to transition into a Data Engineer role. 
-              I specialize in building scalable data pipelines, automating workflows, and managing cloud infrastructure. 
-              My goal is to leverage my expertise in cloud platforms and data engineering to help organizations manage and analyze large datasets effectively.
+             I'm a DevOps and AI Engineer with <span className="text-blue-400 font-semibold">3+ years</span> of experience in cloud automation and intelligent systems. 
+             I specialize in building CI/CD pipelines, managing infrastructure with Terraform/AWS/Kubernetes, and developing AI applications using Ollama, Python, and modern web technologies. 
+             My goal is to help organizations achieve operational excellence and innovation through DevOps automation and AI-driven solutions.
             </p>
             
             <div className="flex flex-wrap gap-2 md:gap-4 mb-8 justify-center lg:justify-start">
-              {['AWS Cloud', 'Google Cloud', 'Terraform', 'Cloud Security', 'Automation', 'Scalability'].map((skill, index) => (
+              {['AWS Cloud', 'Google Cloud', 'AI Applications', 'Terraform', 'Cloud Security', 'Automation', 'Scalability'].map((skill, index) => (
                 <span 
                   key={skill}
                   className="px-3 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full text-xs md:text-sm font-medium border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105 shadow-lg"
