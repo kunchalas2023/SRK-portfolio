@@ -83,7 +83,7 @@ const About = () => {
       date: "2025",
       status: "Active",
       description: "OCI AI Foundations Associate with strong understanding of Oracle Cloud AI services, ML fundamentals, generative AI, and AI infrastructure deployment.",
-      image: "/path-to-your-image/oracle-ai-cert.png",
+      image: "public/OCI25AICFA.jpeg",
     },
 
     
