@@ -53,18 +53,19 @@ const About = () => {
     },
     {
       year: "Aug 2020 - Nov 2021",
-      title: "Web Development Intern",
+      title: "Junior Cloud Engineer",
       institution: "Star Wall Interio",
       type: "Internship · Hybrid",
       duration: "1 yr 4 mos",
-      description: "Built a responsive React website for Star Wall Interio featuring interactive galleries and modern UI/UX design.",
+      description: "Built a responsive React website for Star Wall Interio featuring interactive galleries and modern UI/UX design and Deployed in Cloud.",
       responsibilities: [
-        "Developed a full-featured company website from scratch using React and modern web technologies.",
-        "Created responsive, visually appealing UI/UX design showcasing interior design portfolio and services.",
-        "Implemented interactive galleries, contact forms, and service pages with seamless user experience.",
-        "Ensured mobile responsiveness and optimized performance across all devices."
+        "Developed and deployed a responsive website for Star Wall Interio on AWS cloud infrastructure with automated CI/CD pipelines.", 
+        "Configured AWS services (EC2, S3, CloudFront, Route 53) for web hosting, content delivery, and DNS management.", 
+        "Implemented CloudWatch monitoring for performance tracking and server health checks, achieving 99.9% uptime.", 
+        "Optimized website performance using cloud-based solutions, improving page load times by 40% and reducing bandwidth costs.", 
+        "Managed infrastructure using IaC principles and documented deployment procedures."
       ],
-      skills: ["HTML", "CSS", "JavaScript"]
+      skills: ["AWS Cloud", "EC2","Cloud Watch", "HTML", "CSS", "JavaScript"]
     }
   ];
 
