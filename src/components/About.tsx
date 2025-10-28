@@ -77,6 +77,16 @@ const About = () => {
       description: "AWS Certified Cloud Practitioner with a strong foundation in AWS core services, cloud concepts, billing, and security best practices",
       color: "bg-orange-500"
     },
+     {
+      title: "Oracle Certified AI Foundations Associate",
+      issuer: "Oracle", 
+      date: "2025",
+      status: "Active",
+      description: "OCI AI Foundations Associate with strong understanding of Oracle Cloud AI services, ML fundamentals, generative AI, and AI infrastructure deployment.",
+      color: "bg--500"
+    },
+
+    
     {
       title: "Python Foundation Certificate",
       issuer: "Infosys SpringBoard", 
