@@ -52,17 +52,17 @@ const About = () => {
       skills: ["Amazon EC2", "Amazon VPC", "Amazon S3", "IAM", "Terraform", "MySQL", "Cloud Services"]
     },
     {
-      year: "Aug 2020 - May 2021",
+      year: "Aug 2020 - Nov 2021",
       title: "Web Development Intern",
       institution: "Star Wall Interio",
       type: "Internship · Hybrid",
-      duration: "10 mos",
-      description: "Assisted the design and marketing team in enhancing the website for Star Wall Interio.",
+      duration: "1 yr 4 mos",
+      description: "Built a responsive React website for Star Wall Interio featuring interactive galleries and modern UI/UX design.",
       responsibilities: [
-        "Assist the design and marketing team in enhancing the website, including UI/UX improvements, content updates, and design integration.",
-        "Collaborate with the team to develop new features for the website, ensuring it is functional, responsive, and visually appealing.",
-        "Help optimize the website for SEO and improve user experience.",
-        "Ensure the website aligns with the brand identity and digital marketing goals."
+        "Developed a full-featured company website from scratch using React and modern web technologies.",
+        "Created responsive, visually appealing UI/UX design showcasing interior design portfolio and services.",
+        "Implemented interactive galleries, contact forms, and service pages with seamless user experience.",
+        "Ensured mobile responsiveness and optimized performance across all devices."
       ],
       skills: ["HTML", "CSS", "JavaScript"]
     }
