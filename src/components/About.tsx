@@ -118,13 +118,13 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Me</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-6">
-            I'm a dedicated cloud computing professional with a passion for building innovative solutions in the cloud. I hold a Master's degree in Computer Science from Florida Atlantic University, where I focused on Cloud Security, AI, and IoT. With more than 3 years of hands-on experience, I've developed expertise in AWS, Google Cloud, Terraform, and Python. I've worked on impactful projects such as designing cloud backup systems and creating AI-driven audio analysis tools. My career has been driven by a desire to optimize infrastructure and deliver scalable, secure cloud solutions.
+            I'm a cloud computing and AI professional with a Master's in Computer Science from Florida Atlantic University and 3+ years of experience in AWS, Terraform, Python, and AI development. I've built impactful projects including cloud infrastructure automation and AI-powered applications like FoodyBuddy chatbot using Ollama, Node.js, and React 19.
           </p>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-6">
-            I am now transitioning into a DevOps Engineer role, looking to apply my cloud skills to build scalable data pipelines, automate data workflows, and leverage big data technologies. I'm excited to contribute to a team that values innovation, scalability, and data-driven decision-making, while continuing to grow in a dynamic, forward-thinking environment.
+            I'm transitioning into DevOps and AI Engineering roles, specializing in CI/CD pipelines, infrastructure automation, Kubernetes, and developing intelligent applications with local LLMs. I'm passionate about combining cloud automation with artificial intelligence to create scalable, innovative solutions that drive business value.
           </p>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            I am currently looking for new opportunities where I can apply my cloud computing and DevOps engineer skills and continue to grow in a dynamic, forward-thinking environment. I'm excited to contribute to a team that values innovation, scalability, and problem-solving.
+            I'm seeking opportunities to apply my DevOps and AI expertise in a forward-thinking environment that values automation, innovation, and cutting-edge technology. Let's build something amazing together!
           </p>
         </div>
 
