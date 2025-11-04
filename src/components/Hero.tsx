@@ -89,7 +89,7 @@ const Hero = () => {
               </div>
             </div>
             
-            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent drop-shadow-2xl">
+            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-white-400 to-white-400 bg-clip-text text-transparent drop-shadow-2xl">
               Hello I'm Siva
             </h1>
             
@@ -103,7 +103,7 @@ const Hero = () => {
               {['AWS Cloud', 'Google Cloud', 'AI Applications', 'Terraform', 'Cloud Security', 'Automation', 'Scalability'].map((skill, index) => (
                 <span 
                   key={skill}
-                  className="px-3 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full text-xs md:text-sm font-medium border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105 shadow-lg"
+                  className="px-3 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full text-xs md:text-sm font-medium border border-white/20 hover:bg-green/20 transition-all duration-300 hover:scale-105 shadow-lg"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   {skill}
