@@ -13,7 +13,7 @@ const Skills = () => {
     {
       title: "Programming & Development",
       icon: <Code className="w-6 h-6" />,
-      skills: ["Python", "C", "SQL"],
+      skills: ["Python", "C", "Nodejs", "html", "SQL"],
       color: "from-emerald-500 to-teal-600"
     },
     {
@@ -23,16 +23,10 @@ const Skills = () => {
       color: "from-violet-500 to-purple-600"
     },
     {
-      title: "Systems & Tools",
+      title: "Systems & AI/ML Tools",
       icon: <Monitor className="w-6 h-6" />,
-      skills: ["Linux", "Unix", "Windows", "MS-Office"],
+      skills: ["Linux", "Unix", "Windows", "MS-Office", "Vector Search", "Embeddings", "Ollama", "Huggingface", "Langchain"],
       color: "from-orange-500 to-pink-500"
-    },
-    {
-      title: "AI/ML Tools",
-      icon: <Monitor className="w-6 h-6" />,
-      skills: ["Vector Search", "Embeddings", "Ollama", "Huggingface", "Langchain"],
-      color: "from-orange-500 to-purple-500"
     }
   ];
 
