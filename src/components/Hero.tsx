@@ -85,7 +85,7 @@ const Hero = () => {
                 </span>
               </div>
               <div className="flex justify-center lg:justify-start mt-2">
-                <div className="w-24 md:w-32 h-0.5 bg-gradient-to-r from-green-400 to-green-600 animate-pulse"></div>
+                <div className="w-24 md:w-35 h-0.5 bg-gradient-to-r from-green-400 to-green-600 animate-pulse"></div>
               </div>
             </div>
             
