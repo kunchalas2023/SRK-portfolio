@@ -7,26 +7,32 @@ const Skills = () => {
     {
       title: "Cloud & DevOps",
       icon: <Cloud className="w-6 h-6" />,
-      skills: ["Amazon Web Services", "EC2", "VPC", "IAM", "S3", "Lambda", "CloudWatch", "CloudTrail", "Terraform", "CI/CD"],
+      skills: ["AWS", "GCP", "EC2", "VPC", "IAM", "S3", "Lambda", "CloudWatch", "CloudTrail", "Terraform", "CI/CD", "Cloud Run"],
       color: "from-indigo-500 to-purple-600"
     },
     {
       title: "Programming & Development",
       icon: <Code className="w-6 h-6" />,
-      skills: ["Python", "SQL"],
+      skills: ["Python", "C", "SQL"],
       color: "from-emerald-500 to-teal-600"
     },
     {
       title: "Version Control & Collaboration",
       icon: <GitBranch className="w-6 h-6" />,
-      skills: ["Git", "Github"],
+      skills: ["Git", "Github", "Github Actions", "Bitbucket"],
       color: "from-violet-500 to-purple-600"
     },
     {
       title: "Systems & Tools",
       icon: <Monitor className="w-6 h-6" />,
-      skills: ["Linux", "MS-Office"],
+      skills: ["Linux", "Unix", "Windows", "MS-Office"],
       color: "from-orange-500 to-pink-500"
+    }
+    {
+      title: "AI/ML Tools",
+      icon: <Monitor className="w-6 h-6" />,
+      skills: ["Vector Search", "Embeddings", "Ollama", "Huggingface", "Langchain"],
+      color: "from-orange-500 to-purple-500"
     }
   ];
 
