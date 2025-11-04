@@ -89,7 +89,7 @@ const Hero = () => {
               </div>
             </div>
             
-            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-white-400 to-white-400 bg-clip-text text-transparent drop-shadow-2xl">
+            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent drop-shadow-2xl">
               Hello I'm Siva
             </h1>
             
