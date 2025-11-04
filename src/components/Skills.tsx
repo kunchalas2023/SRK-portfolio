@@ -27,7 +27,7 @@ const Skills = () => {
       icon: <Monitor className="w-6 h-6" />,
       skills: ["Linux", "Unix", "Windows", "MS-Office"],
       color: "from-orange-500 to-pink-500"
-    }
+    },
     {
       title: "AI/ML Tools",
       icon: <Monitor className="w-6 h-6" />,
