@@ -54,7 +54,7 @@ const About = () => {
     {
       year: "Aug 2020 - Nov 2021",
       title: "Junior Cloud Engineer",
-      institution: "Star Wall Interio",
+      institution: "Star Wall Interio | Interior Design & Smart Solutions",
       type: "Internship · Hybrid",
       duration: "1 yr 4 mos",
       description: "Built a responsive React website for Star Wall Interio featuring interactive galleries and modern UI/UX design and Deployed in Cloud.",
