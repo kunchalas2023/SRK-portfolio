@@ -36,83 +36,62 @@ const Hero = () => {
   }, [displayText, currentIndex, isDeleting, titles]);
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900">
-        {/* Floating geometric shapes */}
-        <div className="absolute top-20 left-10 w-32 h-32 bg-blue-500/20 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute top-40 right-20 w-48 h-48 bg-purple-500/20 rounded-full blur-xl animate-pulse" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute bottom-32 left-20 w-40 h-40 bg-pink-500/20 rounded-full blur-xl animate-pulse" style={{ animationDelay: '4s' }}></div>
-        <div className="absolute bottom-20 right-10 w-36 h-36 bg-cyan-500/20 rounded-full blur-xl animate-pulse" style={{ animationDelay: '6s' }}></div>
-        
-        {/* Animated grid pattern */}
-        <div className="absolute inset-0 opacity-30">
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent transform -skew-y-12 animate-pulse"></div>
-          <div className="absolute inset-0 bg-gradient-to-l from-transparent via-white/5 to-transparent transform skew-y-12 animate-pulse" style={{ animationDelay: '3s' }}></div>
-        </div>
-        
-        {/* Particle effect overlay */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[length:50px_50px] animate-pulse"></div>
+    <section id="home" className="min-h-screen flex items-center justify-center relative bg-slate-50 dark:bg-slate-950">
+      {/* Clean Professional Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-slate-100 to-slate-200 dark:from-slate-950 dark:via-slate-900 dark:to-slate-800">
+        <div className="absolute inset-0 bg-grid-slate-200/50 dark:bg-grid-slate-700/25 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.5))]"></div>
       </div>
       
       {/* Content */}
-      <div className="container mx-auto px-4 md:px-6 relative z-10 text-white">
-        <div className="animate-fade-in flex flex-col lg:flex-row items-center justify-center lg:justify-between max-w-6xl mx-auto">
+      <div className="container mx-auto px-4 md:px-8 lg:px-12 relative z-10">
+        <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto gap-8 lg:gap-16">
         
-          {/* Profile Photo - Circle shape */}
-          <div className="flex-shrink-0 mb-8 lg:mb-0 lg:order-2 lg:ml-12">
-            <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 xl:w-64 xl:h-64 relative mx-auto">
-              <div className="group relative">
-                <img 
-                  src="/SRK-portfolio/lovable-uploads/2d2fc46b-8f61-4672-a8dc-6d704624d687.png" 
-                  alt="Siva Rama Krishna Reddy"
-                  className="w-full h-full object-cover rounded-full shadow-2xl transition duration-300 transform group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-opacity duration-300 rounded-full"></div>
-              </div>
+          {/* Profile Photo */}
+          <div className="flex-shrink-0 lg:order-2">
+            <div className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 relative">
+              <img 
+                src="/SRK-portfolio/lovable-uploads/2d2fc46b-8f61-4672-a8dc-6d704624d687.png" 
+                alt="Siva Rama Krishna Reddy"
+                className="w-full h-full object-cover rounded-2xl shadow-xl border-4 border-white dark:border-slate-800"
+              />
             </div>
           </div>
         
-          {/* Left side content */}
+          {/* Content */}
           <div className="flex-1 text-center lg:text-left lg:order-1">
-            {/* Animated Professional Title */}
-            <div className="mb-6">
-              <div className="text-base md:text-lg lg:text-xl text-blue-300 font-medium h-6 md:h-7 flex items-center justify-center lg:justify-start">
-                <span className="mr-1">I'm a</span>
-                <span className="text-green-400 font-semibold min-w-[160px] md:min-w-[200px]">
-                  {displayText}
-                  <span className="animate-pulse text-green-300">|</span>
-                </span>
-              </div>
-              <div className="flex justify-center lg:justify-start mt-2">
-                <div className="w-28 md:w-28 h-0.5 bg-gradient-to-r from-green-400 to-green-600 animate-pulse"></div>
+            {/* Professional Title */}
+            <div className="mb-4">
+              <p className="text-sm md:text-base font-medium text-slate-600 dark:text-slate-400 uppercase tracking-wider mb-2">
+                Professional Profile
+              </p>
+              <div className="flex items-center justify-center lg:justify-start gap-2 text-lg md:text-xl text-slate-700 dark:text-slate-300">
+                <span>{displayText}</span>
+                <span className="animate-pulse">|</span>
               </div>
             </div>
             
-            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent drop-shadow-2xl">
-              Hello I'm Siva
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-slate-900 dark:text-slate-50">
+              Siva Rama Krishna Reddy
             </h1>
             
-            <p className="text-base md:text-lg lg:text-xl mb-8 max-w-3xl leading-relaxed text-gray-100 backdrop-blur-sm bg-white/5 p-4 md:p-6 rounded-2xl border border-white/10 mx-auto lg:mx-0">
-             I'm a DevOps and AI Engineer with <span className="text-blue-400 font-semibold">3+ years</span> of experience in cloud automation and intelligent systems. 
-             I specialize in building CI/CD pipelines, managing infrastructure with Terraform/AWS/Kubernetes, and developing AI applications using Ollama, Python, and modern web technologies. 
-             My goal is to help organizations achieve operational excellence and innovation through DevOps automation and AI-driven solutions.
+            <p className="text-base md:text-lg lg:text-xl mb-8 max-w-2xl leading-relaxed text-slate-700 dark:text-slate-300 mx-auto lg:mx-0">
+              DevOps and AI Engineer with <span className="font-semibold text-slate-900 dark:text-slate-100">3+ years</span> of experience in cloud automation and intelligent systems. 
+              Specializing in CI/CD pipelines, infrastructure management with Terraform/AWS/Kubernetes, and AI application development.
             </p>
             
-            <div className="flex flex-wrap gap-2 md:gap-4 mb-8 justify-center lg:justify-start">
-              {['AWS Cloud', 'Google Cloud', 'AI Applications', 'Terraform', 'Cloud Security', 'Automation', 'Scalability'].map((skill, index) => (
+            <div className="flex flex-wrap gap-3 mb-8 justify-center lg:justify-start">
+              {['AWS Cloud', 'Google Cloud', 'AI Applications', 'Terraform', 'Cloud Security', 'Automation', 'Scalability'].map((skill) => (
                 <span 
                   key={skill}
-                  className="px-3 md:px-6 py-2 md:py-3 bg-white/10 backdrop-blur-sm rounded-full text-xs md:text-sm font-medium border border-white/20 hover:bg-green/20 transition-all duration-300 hover:scale-105 shadow-lg"
-                  style={{ animationDelay: `${index * 0.1}s` }}
+                  className="px-4 py-2 bg-white dark:bg-slate-800 rounded-lg text-sm font-medium text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition-all duration-200"
                 >
                   {skill}
                 </span>
               ))}
             </div>
             
-            <div className="animate-bounce flex justify-center lg:justify-start">
-              <ArrowDown className="text-blue-400 drop-shadow-lg" size={24} />
+            <div className="flex justify-center lg:justify-start">
+              <ArrowDown className="text-slate-400 dark:text-slate-600 animate-bounce" size={24} />
             </div>
           </div>
         </div>
