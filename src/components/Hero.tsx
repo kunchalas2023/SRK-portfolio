@@ -37,68 +37,81 @@ const Hero = () => {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Glassmorphism Background with Vibrant Gradients */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500">
-        {/* Animated gradient orbs */}
-        <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse"></div>
-        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-gradient-to-br from-pink-400 to-orange-400 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse" style={{ animationDelay: '4s' }}></div>
+      {/* Tech Corporate Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900">
+        {/* Subtle geometric pattern overlay */}
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e3a8a_1px,transparent_1px),linear-gradient(to_bottom,#1e3a8a_1px,transparent_1px)] bg-[size:4rem_4rem]"></div>
+        </div>
+        
+        {/* Subtle gradient accents */}
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-blue-600/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-cyan-600/10 rounded-full blur-3xl"></div>
+        
+        {/* Diagonal accent line */}
+        <div className="absolute inset-0">
+          <div className="absolute top-0 right-0 w-1 h-full bg-gradient-to-b from-blue-500/50 via-transparent to-transparent"></div>
+          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-blue-500/30 to-transparent"></div>
+        </div>
       </div>
       
       {/* Content */}
       <div className="container mx-auto px-4 md:px-8 lg:px-12 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto gap-8 lg:gap-16">
         
-          {/* Profile Photo with Glass Effect */}
+          {/* Profile Photo - Corporate Style */}
           <div className="flex-shrink-0 lg:order-2">
-            <div className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 relative">
-              <div className="absolute inset-0 bg-white/20 backdrop-blur-lg rounded-3xl"></div>
-              <img 
-                src="/SRK-portfolio/lovable-uploads/2d2fc46b-8f61-4672-a8dc-6d704624d687.png" 
-                alt="Siva Rama Krishna Reddy"
-                className="w-full h-full object-cover rounded-3xl shadow-2xl border border-white/20 relative z-10"
-              />
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl blur opacity-50 group-hover:opacity-75 transition duration-300"></div>
+              <div className="relative w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64">
+                <img 
+                  src="/SRK-portfolio/lovable-uploads/2d2fc46b-8f61-4672-a8dc-6d704624d687.png" 
+                  alt="Siva Rama Krishna Reddy"
+                  className="w-full h-full object-cover rounded-2xl border-2 border-blue-500/30"
+                />
+              </div>
             </div>
           </div>
         
-          {/* Content with Glassmorphism */}
-          <div className="flex-1 text-center lg:text-left lg:order-1">
-            {/* Glass Card Container */}
-            <div className="backdrop-blur-xl bg-white/10 rounded-3xl p-8 md:p-10 border border-white/20 shadow-2xl">
-              {/* Professional Title */}
-              <div className="mb-6">
-                <p className="text-sm md:text-base font-semibold text-white/80 uppercase tracking-wider mb-3">
+          {/* Content - Corporate Layout */}
+          <div className="flex-1 text-center lg:text-left lg:order-1 text-white">
+            {/* Professional Title with Corporate Styling */}
+            <div className="mb-6">
+              <div className="inline-block px-4 py-1 bg-blue-600/20 border border-blue-500/30 rounded-full mb-4">
+                <p className="text-xs md:text-sm font-semibold text-blue-300 uppercase tracking-widest">
                   Professional Profile
                 </p>
-                <div className="flex items-center justify-center lg:justify-start gap-2 text-xl md:text-2xl text-white font-medium">
-                  <span>{displayText}</span>
-                  <span className="animate-pulse text-white/70">|</span>
-                </div>
               </div>
-              
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white drop-shadow-lg">
-                Siva Rama Krishna Reddy
-              </h1>
-              
-              <p className="text-base md:text-lg lg:text-xl mb-8 max-w-2xl leading-relaxed text-white/90 mx-auto lg:mx-0">
-                DevOps and AI Engineer with <span className="font-bold text-white">3+ years</span> of experience in cloud automation and intelligent systems. 
-                Specializing in CI/CD pipelines, infrastructure management with Terraform/AWS/Kubernetes, and AI application development.
-              </p>
-              
-              <div className="flex flex-wrap gap-3 mb-8 justify-center lg:justify-start">
-                {['AWS Cloud', 'Google Cloud', 'AI Applications', 'Terraform', 'Cloud Security', 'Automation', 'Scalability'].map((skill) => (
-                  <span 
-                    key={skill}
-                    className="px-4 py-2 bg-white/20 backdrop-blur-md rounded-full text-sm font-medium text-white border border-white/30 shadow-lg hover:bg-white/30 hover:scale-105 transition-all duration-200"
-                  >
-                    {skill}
-                  </span>
-                ))}
+              <div className="flex items-center justify-center lg:justify-start gap-3 text-xl md:text-2xl font-medium text-blue-200">
+                <span>{displayText}</span>
+                <span className="animate-pulse text-blue-400">|</span>
               </div>
-              
-              <div className="flex justify-center lg:justify-start">
-                <ArrowDown className="text-white/70 animate-bounce" size={24} />
-              </div>
+            </div>
+            
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white">
+              Siva Rama Krishna Reddy
+            </h1>
+            
+            <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mb-6 mx-auto lg:mx-0"></div>
+            
+            <p className="text-base md:text-lg lg:text-xl mb-8 max-w-2xl leading-relaxed text-slate-300 mx-auto lg:mx-0">
+              DevOps and AI Engineer with <span className="font-bold text-blue-400">3+ years</span> of experience in cloud automation and intelligent systems. 
+              Specializing in CI/CD pipelines, infrastructure management with Terraform/AWS/Kubernetes, and AI application development.
+            </p>
+            
+            <div className="flex flex-wrap gap-3 mb-8 justify-center lg:justify-start">
+              {['AWS Cloud', 'Google Cloud', 'AI Applications', 'Terraform', 'Cloud Security', 'Automation', 'Scalability'].map((skill) => (
+                <span 
+                  key={skill}
+                  className="px-4 py-2 bg-slate-800/50 backdrop-blur-sm rounded-md text-sm font-medium text-slate-200 border border-slate-700/50 hover:border-blue-500/50 hover:bg-slate-800/70 transition-all duration-200"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+            
+            <div className="flex justify-center lg:justify-start">
+              <ArrowDown className="text-blue-400 animate-bounce" size={24} />
             </div>
           </div>
         </div>
