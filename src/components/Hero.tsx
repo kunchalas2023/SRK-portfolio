@@ -36,62 +36,69 @@ const Hero = () => {
   }, [displayText, currentIndex, isDeleting, titles]);
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative bg-slate-50 dark:bg-slate-950">
-      {/* Clean Professional Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-slate-50 via-slate-100 to-slate-200 dark:from-slate-950 dark:via-slate-900 dark:to-slate-800">
-        <div className="absolute inset-0 bg-grid-slate-200/50 dark:bg-grid-slate-700/25 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.5))]"></div>
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+      {/* Glassmorphism Background with Vibrant Gradients */}
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500">
+        {/* Animated gradient orbs */}
+        <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-0 left-1/2 w-96 h-96 bg-gradient-to-br from-pink-400 to-orange-400 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-pulse" style={{ animationDelay: '4s' }}></div>
       </div>
       
       {/* Content */}
       <div className="container mx-auto px-4 md:px-8 lg:px-12 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between max-w-7xl mx-auto gap-8 lg:gap-16">
         
-          {/* Profile Photo */}
+          {/* Profile Photo with Glass Effect */}
           <div className="flex-shrink-0 lg:order-2">
             <div className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 relative">
+              <div className="absolute inset-0 bg-white/20 backdrop-blur-lg rounded-3xl"></div>
               <img 
                 src="/SRK-portfolio/lovable-uploads/2d2fc46b-8f61-4672-a8dc-6d704624d687.png" 
                 alt="Siva Rama Krishna Reddy"
-                className="w-full h-full object-cover rounded-2xl shadow-xl border-4 border-white dark:border-slate-800"
+                className="w-full h-full object-cover rounded-3xl shadow-2xl border border-white/20 relative z-10"
               />
             </div>
           </div>
         
-          {/* Content */}
+          {/* Content with Glassmorphism */}
           <div className="flex-1 text-center lg:text-left lg:order-1">
-            {/* Professional Title */}
-            <div className="mb-4">
-              <p className="text-sm md:text-base font-medium text-slate-600 dark:text-slate-400 uppercase tracking-wider mb-2">
-                Professional Profile
-              </p>
-              <div className="flex items-center justify-center lg:justify-start gap-2 text-lg md:text-xl text-slate-700 dark:text-slate-300">
-                <span>{displayText}</span>
-                <span className="animate-pulse">|</span>
+            {/* Glass Card Container */}
+            <div className="backdrop-blur-xl bg-white/10 rounded-3xl p-8 md:p-10 border border-white/20 shadow-2xl">
+              {/* Professional Title */}
+              <div className="mb-6">
+                <p className="text-sm md:text-base font-semibold text-white/80 uppercase tracking-wider mb-3">
+                  Professional Profile
+                </p>
+                <div className="flex items-center justify-center lg:justify-start gap-2 text-xl md:text-2xl text-white font-medium">
+                  <span>{displayText}</span>
+                  <span className="animate-pulse text-white/70">|</span>
+                </div>
               </div>
-            </div>
-            
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-slate-900 dark:text-slate-50">
-              Siva Rama Krishna Reddy
-            </h1>
-            
-            <p className="text-base md:text-lg lg:text-xl mb-8 max-w-2xl leading-relaxed text-slate-700 dark:text-slate-300 mx-auto lg:mx-0">
-              DevOps and AI Engineer with <span className="font-semibold text-slate-900 dark:text-slate-100">3+ years</span> of experience in cloud automation and intelligent systems. 
-              Specializing in CI/CD pipelines, infrastructure management with Terraform/AWS/Kubernetes, and AI application development.
-            </p>
-            
-            <div className="flex flex-wrap gap-3 mb-8 justify-center lg:justify-start">
-              {['AWS Cloud', 'Google Cloud', 'AI Applications', 'Terraform', 'Cloud Security', 'Automation', 'Scalability'].map((skill) => (
-                <span 
-                  key={skill}
-                  className="px-4 py-2 bg-white dark:bg-slate-800 rounded-lg text-sm font-medium text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md transition-all duration-200"
-                >
-                  {skill}
-                </span>
-              ))}
-            </div>
-            
-            <div className="flex justify-center lg:justify-start">
-              <ArrowDown className="text-slate-400 dark:text-slate-600 animate-bounce" size={24} />
+              
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white drop-shadow-lg">
+                Siva Rama Krishna Reddy
+              </h1>
+              
+              <p className="text-base md:text-lg lg:text-xl mb-8 max-w-2xl leading-relaxed text-white/90 mx-auto lg:mx-0">
+                DevOps and AI Engineer with <span className="font-bold text-white">3+ years</span> of experience in cloud automation and intelligent systems. 
+                Specializing in CI/CD pipelines, infrastructure management with Terraform/AWS/Kubernetes, and AI application development.
+              </p>
+              
+              <div className="flex flex-wrap gap-3 mb-8 justify-center lg:justify-start">
+                {['AWS Cloud', 'Google Cloud', 'AI Applications', 'Terraform', 'Cloud Security', 'Automation', 'Scalability'].map((skill) => (
+                  <span 
+                    key={skill}
+                    className="px-4 py-2 bg-white/20 backdrop-blur-md rounded-full text-sm font-medium text-white border border-white/30 shadow-lg hover:bg-white/30 hover:scale-105 transition-all duration-200"
+                  >
+                    {skill}
+                  </span>
+                ))}
+              </div>
+              
+              <div className="flex justify-center lg:justify-start">
+                <ArrowDown className="text-white/70 animate-bounce" size={24} />
+              </div>
             </div>
           </div>
         </div>
